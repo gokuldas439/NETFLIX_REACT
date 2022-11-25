@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #111;
+}
+
+.smallPoster{
+   max-height: 170px !important;
+}
+.extraSmallPoster{
+   max-height: 150px !important;
+}
+
+
+
+.nav_logo{
+   
+   
+    margin-left: 50px;
+    width: 95.5px;
+    height: 33px;
+    object-fit: contain;
+    
+    
+}
+
+.nav{
+    background-color: rgb(20, 20, 20);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+   justify-content: space-between;
+    padding-top: 15px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+   
+}
+.navcont{
+display: flex;    
+gap: 25px;
+}
+.navlast{   
+    padding-top: 5px;
+    padding-right: 75px;
+    display: flex;
+    gap: 25px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.search1{  
+    margin-top: 5px;
+}
+
+.footersubcol{
+    margin-left: 125px;
+  display:flex;
+  float: left;
+  width: 10rem;
+  cursor: pointer;
+   
+} 
+.s-icon{
+    margin-left: 160px;
+    word-spacing: 15px;
+    padding-top: 4rem;
+    height:98px;
+   
+}
+.s-icon:hover{
+    cursor: pointer;
+}
+
+
+
+.footlist{
+    list-style: none;
+    cursor: pointer;
+    color: #808080;
+    font-size: 13.2px;
+    font-weight: 100;
+    padding-top: 0px;
+    
+}
+
+.copy-right{
+    font-size: 13px;
+      font-weight: 200;
+      color: #808080;
+      height: 15px;
+      padding-left: 130px;
+      z-index: 1;
+      margin-top: 10.7rem;
+      
+}
+.Servbutton{
+    margin-top: 24px;
+    
+   
+    font-size: 15px;
+    font-weight: 100;
+    padding-left: 1px;
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    color: #808080;
+    border: 1px solid rgba(255, 255, 255, 0.367);
+   cursor: pointer;
+   
+}
+
+.footer{
+    margin-left: 160px;
+}
+
+
+.list{
+    margin: 0;
+    padding: 0;
+     font-size: 15px;
+    display: flex;
+
+     gap: 15px;
+     list-style: none;
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     color: #e5e5e5;
+    }
+    .list li{
+        padding-top: 10px;     
+    cursor: pointer;
+   
+    text-decoration: none;
+ }
+ .list li:hover{
+     color:#b3b3b3;
+     transition: all 0.2s;
+    }
